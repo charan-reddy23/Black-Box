@@ -1,0 +1,9 @@
+Ever wondered how many consecutive subarrays of length at least k exist in an array of length n? 
+
+Use this formula:(n−k+1)(n−k+2)/2
+
+Why it works:
+  (n - k + 1) gives the starting points for exact length k.
+  Adding lengths k,k+1,...,nk,k+1,...,ncounts all longer subarrays!
+
+🔢 Combinatorics made simple for code optimization!
